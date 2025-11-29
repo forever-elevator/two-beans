@@ -24,21 +24,6 @@ export function HeroSection() {
               Explore Our Menu
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Button>
-            <Button size="lg" variant="outline" className="rounded-full text-base px-8 bg-transparent">
-              Book a Visit
-            </Button>
-          </div>
-
-          {/* Coffee beans illustration */}
-          <div className="mt-16 relative">
-            <div className="flex justify-center gap-12">
-              <div className="w-20 h-20 sm:w-24 sm:h-24 bg-primary/10 rounded-full flex items-center justify-center">
-                <span className="text-4xl">☕</span>
-              </div>
-              <div className="w-20 h-20 sm:w-24 sm:h-24 bg-primary/10 rounded-full flex items-center justify-center">
-                <span className="text-4xl">☕</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
